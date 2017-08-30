@@ -1,6 +1,6 @@
 {
   "name": "aeonian-europefix",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Continuous deployment to for S3->CloudFront setups",
   "main": "index.js",
   "scripts": {
