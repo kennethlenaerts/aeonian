@@ -53,7 +53,7 @@ exports.deploy = (environment) => {
   }
 
   bucket = this.cfg.bucket.prefix + revision + '-' + environment
-  domain = bucket + '.s3-website-us-east-1.amazonaws.com'
+  domain = bucket + '.s3.amazonaws.com'
 
   this.listBuckets((buckets) => {
     if (buckets.indexOf(bucket) !== -1) {
